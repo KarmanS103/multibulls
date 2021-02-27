@@ -5,10 +5,10 @@
 
 CFGD=$(readlink -f ~/.config/multibulls)
 
-if [ ! -e "$CFGD/base" ]; then
-    echo "Need to deploy first"
-    exit 1
-fi
+# if [ ! -e "$CFGD/base" ]; then
+#     echo "Need to deploy first"
+#     exit 1
+# fi
 
 SECRET_KEY_BASE=$(cat "$CFGD/base")
 export SECRET_KEY_BASE

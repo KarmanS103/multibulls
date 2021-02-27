@@ -108,6 +108,9 @@ function Bulls() {
     setText("")
   }
 
+  /**
+   * Attribution: Nat Tuck's Lecture 9 Code
+   */
   if (state["username"] === "") {
     ch_login(state["username"])
     return (
